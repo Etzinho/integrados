@@ -1,0 +1,22 @@
+.aside-bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 2% 5%;
+    .aside-menu{
+        list-style: none;
+        padding: 0;
+        .menu-option{
+            margin: 2%;
+            &:first-child{
+                margin-top: 0;
+                margin-bottom: 1%;
+            }
+            &:last-child{
+                margin-top: 1%;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
